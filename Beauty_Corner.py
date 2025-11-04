@@ -1,8 +1,8 @@
 bl_info = {
     "name": "BeautyCorner",
     "author": "Lisovik Alexandr",
-    "version": (1, 2),
-    "blender": (4, 4, 3),
+    "version": (1, 0, 0),
+    "blender": (4, 0, 0),
     "location": "View3D > Sidebar > BeautyCorner",
     "description": "Creates a Mirror modifier with the correct slice angle and the Flip Y button.",
     "category": "Object",

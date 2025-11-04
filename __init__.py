@@ -1,8 +1,8 @@
 bl_info = {
-    "name": "BeautyCorner Mirror Tool",
-    "author": "Your Name",
+    "name": "BeautyCorner",
+    "author": "Lisovik Alexandr",
     "version": (1, 0, 0),
-    "blender": (3, 0, 0),
+    "blender": (4, 0, 0),
     "location": "View3D > Sidebar > BeautyCorner",
     "description": "Simplifies the creation of mirror cuts at custom angles.",
     "warning": "",
@@ -11,14 +11,14 @@ bl_info = {
 
 import importlib
 import bpy
-from . import beauty_corner_mirror
+from . import Beauty_Corner
 
 def register():
-    importlib.reload(beauty_corner_mirror)
-    beauty_corner_mirror.register()
+    importlib.reload(Beauty_Corner)
+    Beauty_Corner.register()
 
 def unregister():
-    beauty_corner_mirror.unregister()
+    Beauty_Corner.unregister()
 
 if __name__ == "__main__":
     register()
