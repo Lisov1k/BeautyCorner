@@ -32,3 +32,5 @@ The plugin automatically creates an `Empty`, adds a `Mirror` modifier, configure
 - Быстрое переключение **Flip Y** прямо из панели.
 - Применение модификатора с автоматическим удалением вспомогательного `Empty`.
 - Минималистичный интерфейс прямо в **N-панели Blender**.
+
+<img width="1308" height="857" alt="NVIDIA_Overlay_nlxOYWn4kW" src="https://github.com/user-attachments/assets/0476c4e0-7be1-4ea9-ba11-ec68086e24a6" />
