@@ -11,14 +11,14 @@ bl_info = {
 
 import importlib
 import bpy
-from . import Beauty_Corner
+from . import mirror_tool
 
 def register():
-    importlib.reload(Beauty_Corner)
-    Beauty_Corner.register()
+    importlib.reload(mirror_tool)
+    mirror_tool.register()
 
 def unregister():
-    Beauty_Corner.unregister()
+    mirror_tool.unregister()
 
 if __name__ == "__main__":
     register()
